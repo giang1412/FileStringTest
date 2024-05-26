@@ -82,7 +82,7 @@
    npm run dev
 ```
 
-> Server sẽ được chạy dưới port `http:/localhost:4000`
+> Server sẽ được chạy dưới port `http://localhost:4000`
 
 5. Quay trở lại thư mục gốc
 
@@ -108,11 +108,11 @@
    npm run dev
 ```
 
-> Client sẽ được chạy dưới port `http:/localhost:3000`
+> Client sẽ được chạy dưới port `http://localhost:3000`
 
 ## API trả về
 
-### Login: `http:/localhost:4000/auth/login`
+### Login: `http://localhost:4000/auth/login`
 
 Method: POST
 body
@@ -141,7 +141,7 @@ Response
 }
 ```
 
-### Login: `http:/localhost:4000/auth/register`
+### Login: `http://localhost:4000/auth/register`
 
 Method: POST
 body
@@ -168,7 +168,7 @@ Response
 }
 ```
 
-### Logout: `http:/localhost:4000/auth/logout`
+### Logout: `http://localhost:4000/auth/logout`
 
 Method: POST
 body
@@ -198,7 +198,7 @@ Response
 }
 ```
 
-### Refresh Token: `http:/localhost:4000/auth/refresh-token`
+### Refresh Token: `http://localhost:4000/auth/refresh-token`
 
 Method: POST
 body
